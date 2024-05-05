@@ -1,0 +1,77 @@
+body{
+  padding-left:0;
+  margin-left:0;
+  background-color: goldenrod;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul{
+  padding-left:0;
+  margin-left:0;
+}
+
+li{
+   padding:16px;
+   border-bottom:1px solid goldenrod;
+}
+
+li:hover{
+        background-color: #C07F00;
+}
+
+.navlinks {
+    background-color: darkgoldenrod;
+    color:gold;
+    text-align:center;
+    font-size:1.2rem;
+}
+
+.imagebanner {
+    background-image: url("immagebanner.jpeg");
+    padding: 100px 0;
+    background-size: 100% 100%;
+    
+}
+
+h2 {
+    text-align: center;
+    Color: gold;
+    background-color: darkgoldenrod;
+}
+
+.introduction {
+    text-align: center;
+    color: gold;
+    font-size: 1.5rem;
+}
+
+.product {
+    color: gold;
+}
+
+.ourproducts {
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 1000px) {
+    ul {
+        text-align: right;
+    }
+  
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid gold;
+    }
+
+    .product {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
